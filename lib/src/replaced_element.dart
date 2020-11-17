@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:chewie/chewie.dart';
-import 'package:chewie_audio/chewie_audio.dart';
+//import 'package:chewie_audio/chewie_audio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_html/src/utils.dart';
@@ -203,6 +203,7 @@ class AudioContentElement extends ReplacedElement {
     dom.Element node,
   }) : super(name: name, style: style, node: node);
 
+  /*
   @override
   Widget toWidget(RenderContext context) {
     return Container(
@@ -218,6 +219,12 @@ class AudioContentElement extends ReplacedElement {
           autoInitialize: true,
         ),
       ),
+    );
+  }
+  */
+  @override
+  Widget toWidget(RenderContext context) {
+    return Container(
     );
   }
 }
