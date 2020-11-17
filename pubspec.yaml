@@ -22,7 +22,7 @@ dependencies:
   # Plugin for rendering the <iframe> tag.
   webview_flutter: ^1.0.0
 
-  # Plugins for rendering the <audio> tag.
+  # Plugins for rendering the <audio> tag.git
   #chewie_audio: ^1.0.0+1
 
   # Plugins for rendering the <svg> tag.
